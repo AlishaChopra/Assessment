@@ -11,6 +11,8 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 by adding it to environment variable
 
 
+https://github.com/AlishaChopra/Assessment/blob/master/users/views.py
+Please change the email id in emailSend method
 
 for part 3
 select user_name, activity_name, max(occurrence) as 'Last Occurrence' , min(occurrence) as 'First Occurrence', amount 
